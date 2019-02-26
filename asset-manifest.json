@@ -1,0 +1,21 @@
+{
+  "main.css": "/restaurante-prueba/static/css/main.ebb7223f.chunk.css",
+  "main.js": "/restaurante-prueba/static/js/main.ad58993a.chunk.js",
+  "main.js.map": "/restaurante-prueba/static/js/main.ad58993a.chunk.js.map",
+  "runtime~main.js": "/restaurante-prueba/static/js/runtime~main.91bc4b32.js",
+  "runtime~main.js.map": "/restaurante-prueba/static/js/runtime~main.91bc4b32.js.map",
+  "static/js/2.9c8f587d.chunk.js": "/restaurante-prueba/static/js/2.9c8f587d.chunk.js",
+  "static/js/2.9c8f587d.chunk.js.map": "/restaurante-prueba/static/js/2.9c8f587d.chunk.js.map",
+  "index.html": "/restaurante-prueba/index.html",
+  "precache-manifest.a65bb2e10627a6ba21727557ceb65e2e.js": "/restaurante-prueba/precache-manifest.a65bb2e10627a6ba21727557ceb65e2e.js",
+  "service-worker.js": "/restaurante-prueba/service-worker.js",
+  "static/css/main.ebb7223f.chunk.css.map": "/restaurante-prueba/static/css/main.ebb7223f.chunk.css.map",
+  "static/media/bg1_Large.jpg": "/restaurante-prueba/static/media/bg1_Large.3122cc4b.jpg",
+  "static/media/bg1_Medium.jpg": "/restaurante-prueba/static/media/bg1_Medium.7cbfc4f9.jpg",
+  "static/media/bg1_extraSmall.jpg": "/restaurante-prueba/static/media/bg1_extraSmall.c2600c1e.jpg",
+  "static/media/bg1_small.jpg": "/restaurante-prueba/static/media/bg1_small.1379aeab.jpg",
+  "static/media/burger.jpg": "/restaurante-prueba/static/media/burger.29ec5fa6.jpg",
+  "static/media/pizzaLarge.jpg": "/restaurante-prueba/static/media/pizzaLarge.3ed0dbe3.jpg",
+  "static/media/pizzaMedium.jpg": "/restaurante-prueba/static/media/pizzaMedium.0291668f.jpg",
+  "static/media/pizzaSmall.jpg": "/restaurante-prueba/static/media/pizzaSmall.b8f93121.jpg"
+}
