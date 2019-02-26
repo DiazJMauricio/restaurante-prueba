@@ -1,0 +1,101 @@
+.NavBarcontainer {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: var(--color1);
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  z-index: 100;
+}
+
+.NavOrder {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.NavBar.desktop .Nav {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+.Nav p {
+  margin: 0 var(--margin);
+  color: white;
+  transition: all 0.3s;
+  pointer-events: all;
+}
+.Nav p:hover {
+  color: var(--color2);
+}
+.Nav p.select {
+  color: var(--color2);
+}
+.NavBar .SocialLinks {
+  margin-left: 2em;
+}
+.NavBar .SocialLinks svg {
+  font-size: 0.8em;
+  color: var(--color2);
+}
+.NavBar.mobile {
+  display: none;
+}
+.NavOrderMobile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#mobileMenu {
+  width: 0;
+}
+.changeMobileMenuBtn {
+  color: white;
+  font-size: 1.8em;
+  padding: 0.2em 0.5em;
+  transition: all 0.3s;
+  position: relative;
+}
+.MobileMenuContainer {
+  position: absolute;
+  top: 2.9em;
+  right: 0;
+  width: 10em;
+  background-color: var(--color1);
+  transition: all 0.3s;
+  opacity: 0;
+  pointer-events: none;
+  min-height: 100vh;
+}
+.MobileMenuContent {
+  position: relative;
+  color: var(--color1);
+  font-size: 2em;
+}
+.MobileMenuContent .SocialLinks {
+  margin: 0;
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+.NavOrderMobile input:checked + .changeMobileMenuBtn {
+  color: var(--color1);
+  background-color: var(--color2);
+}
+
+.NavOrderMobile input:checked ~ .MobileMenuContainer {
+  /* display: inline; */
+  opacity: 1;
+  pointer-events: all;
+  width: 20em;
+  max-width: 100%;
+}
+@media (max-width: 40rem) {
+  .NavBar.desktop {
+    opacity: 0.5;
+    display: none;
+  }
+  .NavBar.mobile {
+    display: inline;
+  }
+}

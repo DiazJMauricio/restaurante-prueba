@@ -1,0 +1,150 @@
+.Menu {
+  min-height: 100vh;
+  position: relative;
+  color: var(--color1);
+}
+.MenuContainer {
+  display: grid;
+  width: 100%;
+  /* grid-template-columns: repeat(auto-fit, minmax(25em, 50em)); */
+  grid-template-columns: repeat(auto-fill, minmax(35em, 1fr));
+  justify-content: stretch;
+}
+.level-1 {
+  grid-row-end: span 1;
+}
+.level-2 {
+  grid-row-end: span 2;
+}
+.level-3 {
+  grid-row-end: span 3;
+}
+.MenuTitle {
+  font-size: 4em;
+  margin: 0.5em;
+}
+.MenuGroup {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: -1;
+}
+.MenuGroup:nth-child(2n) {
+  background-color: var(--color2);
+}
+.MenuGroup > h2 {
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+.MenuList {
+  flex: 1;
+  align-self: stretch;
+  margin: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+.MenuLabel {
+  flex: 1;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 0.5em;
+  padding: 1em;
+  border-bottom: 2px dotted var(--color1);
+}
+.MenuLabel > * {
+  margin: 0;
+}
+.MenuLabel > h5 {
+  font-size: 1.3em;
+}
+
+.vegano.on > * {
+  color: white;
+  transition: all 0.3s;
+}
+.vegano::after {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  position: absolute;
+  background-color: var(--color1);
+  mix-blend-mode: lighten;
+  transition: all 0.3s;
+}
+.vegano.on::after {
+  width: 100%;
+}
+.menuImg {
+  width: 100%;
+  height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MenuGroup img {
+  max-height: 100%;
+  margin-bottom: -5px;
+}
+.changeMenu {
+  position: sticky;
+  top: 0;
+}
+.stikyContainer {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  pointer-events: none;
+}
+.changeMenuBtn {
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  position: absolute;
+  --windowsMargin: 3em;
+  bottom: var(--windowsMargin);
+  right: var(--windowsMargin);
+  background-color: var(--color1);
+  color: var(--color2);
+  padding: 0.5em;
+  --size: 4em;
+  height: var(--size);
+  width: var(--size);
+  border-radius: 10%;
+  font-weight: 700;
+  transition: all 0.3s;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  z-index: -100;
+}
+.changeMenuBtn:hover {
+  transform: rotate(15deg) scale(1.1);
+}
+
+.stikyContainer input[type="checkbox"] {
+  width: 0;
+  height: 0;
+}
+
+.stikyContainer input:checked + .changeMenuBtn {
+  color: var(--color1);
+  background-color: var(--color2);
+}
+.stikyContainer input:checked + .changeMenuBtn:hover {
+  transform: rotate(-15deg) scale(1.1);
+}
+
+@media (max-width: 35em) {
+  .MenuContainer {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "pizzas": [
+    {
+      "title": "Pizza Especial",
+      "info": "Doble queso cremoso, jamón, morrones y aceitunas."
+    },
+    {
+      "title": "Pizza Napolitana",
+      "info": "Doble queso, rodajas de tomate y aceitunas."
+    },
+    {
+      "title": "Pizza Cuatro Quesos",
+      "info": "Muzzarella, roquefort, provolone, queso cremoso y aceitunas negras."
+    },
+    {
+      "title": "Pizza Napolitana",
+      "info": "Doble queso, rodajas de tomate y aceitunas."
+    },
+    {
+      "title": "Pizza Fugazza",
+      "info": "Doble queso, cebolla y aceitunas."
+    },
+    {
+      "title": "Pizza Verdolaga",
+      "info": "Queso Paparella, acelga al vapor, crema vegana de girasol, queso parmesano vegano y alioli de albahaca.",
+      "vegano": true
+    },
+    {
+      "title": "Pizza Caramelita",
+      "info": "Queso Paparella, cebolla caramelizada, orégano, azúcar integral y aceite de oliva.",
+      "vegano": true
+    }
+  ],
+  "hamburguesas": [
+    {
+      "title": "Simple"
+    },
+    {
+      "title": "Doble"
+    },
+    {
+      "title": "A La Parrilla"
+    },
+    {
+      "title": "Callejera",
+      "info": "Carne de 125 gramos, queso mozzarella, papa perro y salsas."
+    },
+    {
+      "title": "Garbanzos y Soja",
+      "vegano": true
+    }
+  ],
+  "ensaladas": [
+    {
+      "title": "champiñones y espárragos.",
+      "vegano": true
+    },
+    {
+      "title": "espinacas, queso fresco y atún."
+    },
+    {
+      "title": "frutas y frutos secos.",
+      "vegano": true
+    },
+    {
+      "title": "Anchoas y Mozzarella"
+    }
+  ],
+  "papas": [
+    {
+      "title": "Chicas",
+      "vegano": true
+    },
+    {
+      "title": "Medianas",
+      "vegano": true
+    },
+    {
+      "title": "Grandes",
+      "vegano": true
+    }
+  ],
+  "bebidas": [
+    {
+      "title": "Gaseosa"
+    },
+    {
+      "title": "Gaseosa Lata"
+    },
+    {
+      "title": "Agua Saborisada"
+    },
+    {
+      "title": "Agua Mineral"
+    },
+    {
+      "title": "Jugo Natural"
+    },
+    {
+      "title": "Te Frio"
+    }
+  ],
+  "cafes": [
+    {
+      "title": "Americano",
+      "vegano": true
+    },
+    {
+      "title": "Doble",
+      "vegano": true
+    },
+    {
+      "title": "Cafe con Leche",
+      "vegano": true
+    },
+    {
+      "title": "Capuchino",
+      "vegano": true
+    },
+    {
+      "title": "Cafe Irlandes",
+      "vegano": true
+    }
+  ]
+}
