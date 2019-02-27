@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/restaurante-prueba/static/media/burger.29ec5fa6.jpg"
   },
   {
-    "revision": "f612fafd3cb484fb523a2ab19349b0f0",
+    "revision": "48f93f914f53f402fd9ddd34a9d0d85c",
     "url": "/restaurante-prueba/index.html"
   }
 ];
